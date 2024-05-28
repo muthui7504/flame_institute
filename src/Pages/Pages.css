@@ -1,0 +1,87 @@
+.bb{
+    background-color: aliceblue;
+}
+.elements{
+    margin: 120px 8rem ;
+    text-align: center;
+    
+}
+.elements p{
+    margin: 2rem ;
+    text-align: left;
+    font-size: 17px;
+}
+.list{
+    margin: 2rem;
+    text-align: left;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+   
+}
+.box{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.list-items1 li{
+    margin-top: 25px;
+}
+.list-item2{
+    border-radius: 10px;
+    background: rgb(236, 240, 240);
+    margin-left: 300px;
+    margin-top: 2.5rem;
+    margin-right: 0px;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.list-item2 h3, h4, a{
+    text-align: center;
+    margin-top: 2rem;
+    align-items: center;
+
+}
+.list-item2 a{
+    bottom: 20px;
+    margin-top: 50px
+}
+
+@media(max-Width: 1050px){
+    .list-item2{
+        margin-left: 200px;
+    }
+}
+@media(max-Width: 950px){
+    .list-item2{
+        margin-left: 100px;
+    }
+}
+@media(max-Width: 850px){
+    .elements{
+        margin: 120px 10px;
+    }
+}
+
+ @media(max-Width: 600px){
+    .elements h4{
+        text-align: left;
+    }
+    .list{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .list-item2{
+        margin: 50px;
+    }
+    .list-item2 li{
+        list-style: none;
+    }
+    .list-item2 h4{
+        text-align: center;
+    }
+}
