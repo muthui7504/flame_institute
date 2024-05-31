@@ -15,7 +15,7 @@ import Conts from './Components/Routes/Conts.jsx'
 import Progs from './Components/Routes/Progs.jsx'
 import Abou from './Components/Routes/Abou.jsx'
 import Tim from './Components/Routes/Tim.jsx'
-
+import Rev from './Components/Director/Rev.jsx'
 
 
 const router = createBrowserRouter([
@@ -63,6 +63,10 @@ const router = createBrowserRouter([
   {
     path: "lap",
     element: <LAP/>
+  },
+  {
+    path: "Rev",
+    element: <Rev/>
   },
 ]);
 

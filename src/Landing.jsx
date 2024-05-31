@@ -7,20 +7,21 @@ import About from './Components/About/About'
 import Footer from './Components/Footer/Footer'
 import Contacts from './Components/Contacts/Contacts'
 import Team from './Components/Team/Team'
-
+import Rev from './Components/Director/Rev'
 
 const Landing = () => {
   return (
     <div>
-         <Navbar/>
+      <Navbar/>
       <Hero/>
+      <Rev/>
       <About/>
       <Programs/>
       <Team/>
-      <div className="container">
+      
         <Contacts/>
         
-      </div>
+     
       <Footer/>
     </div>
   )

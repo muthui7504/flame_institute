@@ -23,7 +23,10 @@ useEffect(() => {
   return (
     <div>
     <nav className={`container ${sticky? 'dark-nav' : ''}`}>
-        <img src={logo} alt="" className='logo' />
+      <div className="logoo">
+        <img src={logo} alt="" className='logo'  />
+          <h3>FLAME INSTITUTE AND THERAPY</h3>
+        </div>
         <ul className={mobileMenu?'':'hide-mobile-menu'}>
             <li><Link to='hero' smooth ={true} offset={0} >Home</Link></li>
             <li><Link to='about' smooth ={true} offset={-190} >About us</Link></li>

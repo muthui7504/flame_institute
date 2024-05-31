@@ -17,11 +17,30 @@
 .hero-text h1{
     font-size: 60px;
     font-weight: 600;
+    margin-bottom: 30px;
 }
 .hero-text p{
     max-width: 700px;
     margin: 10px auto 20px;
     line-height: 1.4;
+}
+.hover-word {
+    position: relative;
+    cursor: pointer;
+}
+
+.hover-word:hover::after {
+    content: attr(data-definition);
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 10;
 }
 
 /*--------------media query--------------*/

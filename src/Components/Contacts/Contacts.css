@@ -26,9 +26,9 @@
     list-style: 0.3;
 }
 .contacts-col ul li{
-      display: flex;
-      align-items: center;
-      margin: 20px 0;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
 }
 .contacts-col ul li a{
     width: 25px;

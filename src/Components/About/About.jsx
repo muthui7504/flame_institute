@@ -10,7 +10,7 @@ const About = () => {
             <img src= {therapy} alt="" className='about-img'/>
         </div>
         <div className="about-right">
-            <h3>ABOUT FLAME INSTITUTE AND THERAPY</h3>
+            <h3>FACULTIES</h3>
             <h2>Nurturing Tommorrow's Leaders Today</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea laborum amet perferendis at, culpa aut alias accusantium, natus blanditiis fuga fugiat odit aliquid cupiditate nisi ex minima ducimus voluptatem velit.</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolores amet quae nesciunt cum nihil reprehenderit, corporis impedit nostrum dignissimos, blanditiis beatae! Delectus unde at vel, culpa ab cum iste!</p>
