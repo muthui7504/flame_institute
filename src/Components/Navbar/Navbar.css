@@ -27,11 +27,12 @@ nav{
 .logoo h3{
     margin-top: 20px;
     margin-left: 20px;
+
 }
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 4px 20px;
+    margin: 0 15px;
     font-size: 18px;
     cursor: pointer;
     transition: 1s;
@@ -58,14 +59,29 @@ nav p{
 }
 
 /*-------------media query-----------*/
+@media(max-width:1022px){
+    .logoo h3{
+        font-size: 15px;
+    }
+    nav ul li{
+        font-size: 15px;
+    }
+}
 
 @media(max-width:1000px){
     .logo{
-        width: 140px;
+        width: px;
     }
     na ul li{
-        margin: 10px 15px;
+        margin: 5px 8px;
     }
+    
+
+}
+@media(max-width:915px){  
+        .logoo h3{
+            font-size: 10px;
+        }
 }
 @media (max-width:840px){
     nav{
