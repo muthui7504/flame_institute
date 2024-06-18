@@ -29,14 +29,13 @@ useEffect(() => {
         </div>
         <ul className={mobileMenu?'':'hide-mobile-menu'}>
             <li><Link to='hero' smooth ={true} offset={0} >Home</Link></li>
-            <li><Link to='about' smooth ={true} offset={-190} >About us</Link></li>
+            <li><Link to='about' smooth ={true} offset={-190} >Faculties</Link></li>
             <li><Link to='programs' smooth ={true} offset={-260} >Programs</Link></li>
             <li><Link to='team'  smooth = {true} offset={-10} >Team</Link></li>
             <li><Link to='contacts' smooth ={true} offset={-260} className= 'btn' >Contact Us</Link></li>
         </ul>
         <img src={menu_icon}alt="" className='menu-icon' onClick={toggleMenu}/>
     </nav>
-  
     </div>
   )
   }  

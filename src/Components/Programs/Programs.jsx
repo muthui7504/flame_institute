@@ -12,6 +12,8 @@ import leader from '../../assets/leader.jfif'
 import { Link } from 'react-router-dom';
 import '../Title/Title.css'
 import lap from '../../assets/lap.png'
+import packages from '../../assets/packeges.png'
+import picon from '../../assets/packagesi.png'
 
 
 
@@ -62,12 +64,12 @@ function Programs() {
             </div>
             
         </div><div className="program">
-            <img src={program_4} alt="" />
+            <img src={packages} alt="" />
             <div className="caption">
-                <img src={program4} alt="" />
-                <h3>Short Courses</h3>
+                <img src={picon} alt="" />
+                <h3>Computer Package Training</h3>
                 <p></p>
-                <Link to='/Courses' className='btn'>Learn more</Link>
+                <Link to='/packages' className='btn'>Learn more</Link>
             </div>
             
         </div>

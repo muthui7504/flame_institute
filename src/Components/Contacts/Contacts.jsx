@@ -19,7 +19,7 @@ const Contacts = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "fd2eb78a-03a8-4861-a5a1-6780f940b2c2");
+    formData.append("access_key", "b671215e-0867-4f4a-bba9-97e57764867e");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -47,7 +47,8 @@ const Contacts = () => {
     <div className='contacts'>
         <div className="contacts-col">
             <h3>Send US a Message <a><FaMessage /></a></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, fuga nulla at provident est ea nihil id deserunt qui similique consequatur iste molestias dicta alias? Odio similique modi expedita ut?</p>
+            <p>Welcome to FLAME Institute and Therapy. Your message is important to US and will be replied to Promptly and Comprehensively. 
+              We look forward to hearing from you. Thanks in Advance</p>
             <ul>
                 <li><a><IoMailUnread/></a>flameinstituteandtherapy@gmail.com</li>
                 <li><a><FaPhoneAlt/></a>07453223399</li>

@@ -61,9 +61,9 @@ function Team() {
                 He founded the Institute in April 2024.</p>
                 <div className="social">
                   <a href="https://www.facebook.com/ngukueliud?mibextid=ZbWKwL">< FaFacebook /></a>
-                  <a href="">< FaInstagram /></a>
-                  <a href="">< FaLinkedin /></a>
-                  <a href="">< FaXTwitter /></a>
+                  <a >< FaInstagram /></a>
+                  <a >< FaLinkedin /></a>
+                  <a >< FaXTwitter /></a>
              </div>
              </div>
           </li>
@@ -81,10 +81,10 @@ function Team() {
                 God fearing, passionate for families, welness, welfare, 
                 awareness creation and community sensitization. .</p>
                 <div className="social">
-                  <a href="">< FaFacebook /></a>
-                  <a href="">< FaInstagram /></a>
-                  <a href="">< FaLinkedin /></a>
-                  <a href="">< FaXTwitter /></a>
+                  <a >< FaFacebook /></a>
+                  <a >< FaInstagram /></a>
+                  <a >< FaLinkedin /></a>
+                  <a >< FaXTwitter /></a>
              </div>
              </div>
           </li>
@@ -105,8 +105,8 @@ function Team() {
                 <div className="social">
                   <a href="https://www.facebook.com/derrick.mawira.9440">< FaFacebook /></a>
                   <a href="https://www.instagram.com/ddemah7?igsh=MTFjMXM5dnBzd2Ex">< FaInstagram /></a>
-                  <a href="">< FaLinkedin /></a>
-                  <a href="">< FaXTwitter /></a>
+                  <a >< FaLinkedin /></a>
+                  <a >< FaXTwitter /></a>
              </div>
              </div>
           </li>
@@ -126,7 +126,7 @@ function Team() {
                   <a href="https://www.facebook.com/profile.php?id=100078875402634">< FaFacebook /></a>
                   <a href="https://www.instagram.com/monicwakaranja?igsh=MWZlYmdlMTF4OTE4YQ==">< FaInstagram /></a>
                   <a href="https://www.linkedin.com/in/monicah-wambui-karanja-a5a05327b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">< FaLinkedin /></a>
-                  <a href="">< FaXTwitter /></a>
+                  <a >< FaXTwitter /></a>
              </div>
              </div>
           </li>
@@ -147,7 +147,7 @@ function Team() {
                   <a href="https://www.facebook.com/profile.php?id=100070503374631">< FaFacebook /></a>
                   <a href="https://www.instagram.com/joy229707?igsh=NXVnd3J6ank0YnJ3">< FaInstagram /></a>
                   <a href="https://www.linkedin.com/in/owino-christine-5a611629b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">< FaLinkedin /></a>
-                  <a href="">< FaXTwitter /></a>
+                  <a>< FaXTwitter /></a>
              </div>
              </div>
           </li>

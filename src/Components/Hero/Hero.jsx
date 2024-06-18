@@ -1,8 +1,14 @@
 import React, { useEffect, useRef } from 'react';
 import './Hero.css';
-import landscape from '../../assets/landscape.jpg';
+import landscape from '../../assets/landscape.png';
+import about1 from '../../assets/about1.jpg'
+import about2 from '../../assets/about2.jpg'
 import { FaArrowCircleLeft } from "react-icons/fa";
 import { FaArrowCircleRight } from "react-icons/fa";
+import therapy from '../../assets/therapy.png'
+import therapy1 from '../../assets/therapy3.png'
+import therapy2 from '../../assets/therapy2.png'
+
 
 
 function Hero() {
@@ -67,11 +73,11 @@ function Hero() {
 
   return (
     <div>
-      <div className="carousel" ref={carouselRef}>
+      <div className=" hero carousel" ref={carouselRef}>
         {/*-- list item --*/}
         <div className="list">
           <div className="item">
-            <img src={landscape} alt="landscape" />
+            <img src={landscape} alt="landscape" className='image'/>
             <div className="content">
               <div className="topic">ABOUT</div>
               <div className="des">
@@ -82,7 +88,7 @@ function Hero() {
             </div>
           </div>
           <div className="item">
-            <img src={landscape} alt="landscape" />
+            <img src={therapy1} alt="landscape" className='image' />
             <div className="content">
               <div className="topic">VISION</div>
               <div className="des">
@@ -92,7 +98,7 @@ function Hero() {
             </div>
           </div>
           <div className="item">
-            <img src={landscape} alt="landscape" />
+            <img src={therapy2} alt="landscape" className='image'/>
             <div className="content">
               <div className="topic">MISSION</div>
               <div className="des">
@@ -102,11 +108,20 @@ function Hero() {
             </div>
           </div>
           <div className="item">
-            <img src={landscape} alt="landscape" />
+            <img src={therapy} alt="landscape" className='image'/>
             <div className="content">
               <div className="topic">CORE VALUES</div>
               <div className="des">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                <b>Family </b>- a belief that the Family is the cornerstone of any society and has to be taken care of to have any progress and stability. <br />
+
+                <b> Leadership</b> - society falls and rises with leadership, thus stressing on strategic, servant, and spiritual leadership. <br />
+
+                <b>Academics </b>  - education is the pedestal on which greatness is attained and should be a route towards other attainments in the economy including entrepreneurship, innovation, sports and health. <br />
+
+                <b>Ministry </b>  - church and the subsequent service attached to it are key balancing and stabilizing factors of any society, without which morals and ethics find no place of exercise. <br />
+
+                <b>Empowerment </b>  - it's by creating conducive conditions that humanity is given capacity to progress and prosper. 
+
               </div>
               
             </div>
@@ -115,31 +130,31 @@ function Hero() {
         {/* -- list thumbnail -- */}
         <div className="thumbnail" ref={thumbnailBorderRef}>
           <div className="item">
-            <img src={landscape} alt="landscape" />
+            <img src={about1} alt="landscape" />
             <div className="content">
-              <div className="title">VISSION</div>
-              <div className="description">Description</div>
+              <div className="title"></div>
+              <div className="description">VISSION</div>
+            </div>
+          </div>
+          <div className="item">
+            <img src={about2} alt="landscape" />
+            <div className="content">
+              <div className="title"></div>
+              <div className="description">MISSION</div>
             </div>
           </div>
           <div className="item">
             <img src={landscape} alt="landscape" />
             <div className="content">
-              <div className="title">MISSION</div>
-              <div className="description">Description</div>
+              <div className="title"></div>
+              <div className="description">CORE VALUES</div>
             </div>
           </div>
           <div className="item">
             <img src={landscape} alt="landscape" />
             <div className="content">
-              <div className="title">CORE VALUES</div>
-              <div className="description">Description</div>
-            </div>
-          </div>
-          <div className="item">
-            <img src={landscape} alt="landscape" />
-            <div className="content">
-              <div className="title">ABOUT</div>
-              <div className="description">Description</div>
+              <div className="title"></div>
+              <div className="description">ABOUT</div>
             </div>
           </div>
         </div>

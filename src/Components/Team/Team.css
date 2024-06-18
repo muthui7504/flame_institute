@@ -2,8 +2,8 @@
     overflow: hidden;
 }
 .testimonials{
-    margin: 80px auto;
-    padding: 0 80px;
+    /*margin: 4px auto;*/
+    padding: 0 40px;
     position: relative;
 }
 .next-btn, .back-btn{
@@ -144,5 +144,11 @@
     .slide{
         margin-right: 90px;
         height: 20rem;
+    }
+}
+@media (max-width:420px){
+    slide{
+        margin: 30px;
+        height: 22rem;
     }
 }

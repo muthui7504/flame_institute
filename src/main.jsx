@@ -6,6 +6,7 @@ import Couples from './Pages/Couples/Couples.jsx'
 import Ladies from './Pages/Ladies/Ladies.jsx'
 import Courses from './Pages/Courses/Courses.jsx'
 import Ministry from './Pages/Ministry/Ministry.jsx'
+import About from './Components/About/About.jsx'
 import LAP from './Pages/LAP/LAP.jsx'
 import {
   createBrowserRouter,
@@ -16,6 +17,8 @@ import Progs from './Components/Routes/Progs.jsx'
 import Abou from './Components/Routes/Abou.jsx'
 import Tim from './Components/Routes/Tim.jsx'
 import Rev from './Components/Director/Rev.jsx'
+import { Package } from 'lucide-react'
+import Packages from './Pages/Computer/packages.jsx'
 
 
 const router = createBrowserRouter([
@@ -24,11 +27,11 @@ const router = createBrowserRouter([
     element: <App/>
   },
   {
-    path: "/",
-    element: <App/>
+    path: "about",
+    element: <About/>
   },
   {
-    path: "about",
+    path: "abou",
     element: <Abou/>
   },
   {
@@ -67,6 +70,10 @@ const router = createBrowserRouter([
   {
     path: "Rev",
     element: <Rev/>
+  },
+  {
+    path: "packages",
+    element: <Packages/>
   },
 ]);
 

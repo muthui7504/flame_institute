@@ -1,87 +1,96 @@
-.bb{
-    background-color: aliceblue;
+.bb {
+  background-color: aliceblue;
 }
-.elements{
-    margin: 120px 8rem ;
-    text-align: center;
-    
+
+.elements {
+  margin: 120px auto;
+  text-align: center;
+  width: 60%;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 10px;
 }
-.elements p{
-    margin: 2rem ;
-    text-align: left;
-    font-size: 17px;
+
+.elements p {
+  margin: 2rem;
+  text-align: left;
+  font-size: 17px;
 }
-.list{
-    margin: 2rem;
-    text-align: left;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-   
+
+.list {
+  margin: 2rem;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.box{
-    align-items: center;
-    justify-content: center;
+
+.box {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.list-items1 {
+  flex: 1;
+  padding: 1rem;
+}
+
+.list-items1 li {
+  margin-top: 25px;
+}
+
+.list-item2 {
+  flex: 1;
+  border-radius: 10px;
+  background: rgb(236, 240, 240);
+  margin-top: 2.5rem;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+}
+
+.list-item2 h3, .list-item2 h4, .list-item2 a {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.list-item2 a {
+  margin-top: 1rem;
+}
+
+@media (max-width: 1050px) {
+  .elements {
+    width: 70%;
+  }
+}
+
+@media (max-width: 850px) {
+  .elements {
+    width: 80%;
+    margin: 60px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .elements {
+    width: 90%;
+    margin: 20px;
+  }
+
+  .list {
     flex-direction: column;
-    
-}
-.list-items1 li{
-    margin-top: 25px;
-}
-.list-item2{
-    border-radius: 10px;
-    background: rgb(236, 240, 240);
-    margin-left: 300px;
-    margin-top: 2.5rem;
-    margin-right: 0px;
-    width: 300px;
-    height: 300px;
-    justify-content: center;
-    align-items: center;
-}
-.list-item2 h3, h4, a{
-    text-align: center;
-    margin-top: 2rem;
-    align-items: center;
+    margin: 20px 0;
+  }
 
-}
-.list-item2 a{
-    bottom: 20px;
-    margin-top: 50px
-}
-
-@media(max-Width: 1050px){
-    .list-item2{
-        margin-left: 200px;
-    }
-}
-@media(max-Width: 950px){
-    .list-item2{
-        margin-left: 100px;
-    }
-}
-@media(max-Width: 850px){
-    .elements{
-        margin: 120px 10px;
-    }
-}
-
- @media(max-Width: 600px){
-    .elements h4{
-        text-align: left;
-    }
-    .list{
-        flex-direction: column;
-        margin: 20px;
-    }
-    .list-item2{
-        margin: 50px;
-    }
-    .list-item2 li{
-        list-style: none;
-    }
-    .list-item2 h4{
-        text-align: center;
-    }
+  .list-item2 {
+    margin: 20px 0;
+  }
 }

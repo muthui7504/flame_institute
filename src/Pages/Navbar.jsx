@@ -26,7 +26,7 @@ useEffect(() => {
         <img src={logo} alt="" className='logo' />
         <ul className={mobileMenu?'':'hide-mobile-menu'}>
             <li><Link to='/'  offset={0} >Home</Link></li>
-            <li><Link to='/about'  offset={-190} >About us</Link></li>
+            <li><Link to='/abou'  offset={-190} >Faculties</Link></li>
             <li><Link to='/programs'  offset={-260} >Programs</Link></li>
             <li><Link to='/team'  offset={-260} >Team</Link></li>
             <li><Link to='/contacts'  offset={260} className= 'btn' >Contact Us</Link></li>

@@ -13,17 +13,13 @@ const Footer = () => {
         <div className="sb__footer-links">
           <div className="sb__footer-links-div">
             <h4>Flame institute and therapy</h4>
-            <ul>
-              <li><Link to='about'>About us</Link></li>
-              <li><Link to='programs'>Programs Offered</Link></li>
-              <li><Link to='contacts'>Contact Us</Link></li>
-            </ul>
+            
           </div>
           <div className="sb__footer-links_div">
             <h4>Learn more about us on</h4>
             <div className="socialmedia">
             <a href='https://www.facebook.com/flameinstituteandtherapy' ><FaFacebookSquare /></a>
-            <a><FaSquareXTwitter /></a>
+            <a href='https://x.com/InstituteFlame?t=IKAyRLUQvlUjBrGiR6dyvg&s=08 '><FaSquareXTwitter /></a>
             <a><BsLinkedin /></a>
             <a><AiFillInstagram /></a>
             </div>
