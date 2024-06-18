@@ -50,7 +50,7 @@
     display: block;
     margin: 20px 0;
 }
-/*-------------media query-------------*/
+/*-------------media query-----------*/
 @media (max-width:700px){
     .contacts{
         display: block;
@@ -58,4 +58,7 @@
     .contacts-col{
         padding: 20px;
     }
+}
+/*dd{
+    display: block;
 }
