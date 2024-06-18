@@ -17,7 +17,6 @@ import Progs from './Components/Routes/Progs.jsx'
 import Abou from './Components/Routes/Abou.jsx'
 import Tim from './Components/Routes/Tim.jsx'
 import Rev from './Components/Director/Rev.jsx'
-import { Package } from 'lucide-react'
 import Packages from './Pages/Computer/packages.jsx'
 
 
@@ -74,6 +73,10 @@ const router = createBrowserRouter([
   {
     path: "packages",
     element: <Packages/>
+  },
+  {
+    path: "*",
+    element: <App/>
   },
 ]);
 
